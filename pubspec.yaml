@@ -1,0 +1,43 @@
+name: flappy_bird
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+
+dependencies:
+  flame: ^1.11.0
+  flame_audio: ^2.1.4
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  build_runner: ^2.4.7
+  flutter_gen_runner: ^5.3.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/font/Poppins-SemiBold.ttf
+          weight: 600
+    - family: FlappyBird
+      fonts:
+        - asset: assets/font/flappy-bird.ttf
+          weight: 400
