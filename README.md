@@ -1,5 +1,5 @@
 # 🐦 Flappy Bird Clone (Flutter)
-![flappy_bird](https://github.com/user-attachments/assets/4151835a-731b-4b19-9406-e361806941bd)
+![flappy_bird](https://github.com/user-attachments/assets/853ed83d-fa1b-4f73-bf3d-5bdba7dfbb9f)
 
 
 This repository is a **replication of the classic game Flappy Bird**, built using **Flutter**.
